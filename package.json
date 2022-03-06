@@ -2,10 +2,13 @@
   "name": "ts-sandbox",
   "version": "0.0.1",
   "description": "Sandbox for testing out TypeScript, as the codebase we're working is moving to it. ",
-  "main": "index.js",
   "author": "JP Caparas <jp@jpcaparas.com>",
   "license": "MIT",
   "private": false,
+  "scripts": {
+    "start": "parcel serve src/index.html --open",
+    "build": "parcel build src/index.html"
+  },
   "devDependencies": {
     "parcel": "^2.3.1"
   }
